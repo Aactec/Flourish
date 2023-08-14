@@ -35,11 +35,12 @@ nav img{
     color: white;
     text-decoration: none;
     font-size: 15px;
+    font-weight: 500;
 }
 .nav-links ul li::after{
     content: '';
     width: 0px;
-    height: 2px;
+    height: 3px;
     background: #f44336;
     display: block;
     margin: auto;
@@ -74,12 +75,14 @@ nav img{
     padding: 12px 34px;
     font-size: 13px;
     background: transparent;
+    backdrop-filter: blur(5px);
     position: relative;
     cursor: pointer;
 }
 .visit:hover{
-    border: 1px solid red;
+    border: none;
     background: red;
+    border-radius: 6px;
     transition: 1s;
 }
 nav.fa{
@@ -139,7 +142,7 @@ p{
 }
 .course-col{
     flex-basis: 31%;
-    background: #fff3f3;
+    background: aquamarine;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -187,7 +190,7 @@ h3{
     transition: 0.5s;
 }
 .layer:hover{
-    background: rgba(253, 199, 21, 0.7);
+    background: rgba(0, 255, 255, 0.205);
 }
 .layer h3{
     width: 100%;
@@ -241,7 +244,7 @@ h3{
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    background: #fff3f3;
+    background: aquamarine;
     padding: 25px;
     cursor: pointer;
     display: flex;
@@ -282,6 +285,7 @@ h3{
 }
 .call h1{
     color: white;
+    margin: 10px;
     margin-bottom: 40px;
     padding: 0;
 }
@@ -293,12 +297,14 @@ h3{
     padding: 12px 34px;
     font-size: 13px;
     background: transparent;
+    backdrop-filter: blur(5px);
     position: relative;
     cursor: pointer;
 }
 .hero-btn:hover{
-    border: 1px solid red;
+    border: none;
     background: red;
+    border-radius: 5px;
     transition: 1s;
 }
 @media(max-width: 700px){
