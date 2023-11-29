@@ -4,6 +4,9 @@
     padding: 0;
     font-family: 'Poppins',sans-serif;
 }
+html::-webkit-scrollbar{
+    display: none;
+}
 /*--------- header first page ----------*/
 .header{
     min-height: 100vh;
