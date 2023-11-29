@@ -55,7 +55,7 @@ nav img{
     width: 90%;
     color: white;
     position: absolute;
-    top: 50%;
+    top: 56%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -90,6 +90,9 @@ nav img{
 nav .nav-bar{
     display: none;
 }
+nav .navbar{
+    display: none;
+}
 /* ------------------------------Responsive----------------------------- */
 @media(max-width: 700px){
     .text-box h1{
@@ -100,14 +103,14 @@ nav .nav-bar{
     }
     .nav-links{
         position: fixed;
-        background: aquamarine;
+        background: #00272e;
         height: 100vh;
-        width: 150px;
+        width: 320px;
         top: 0;
         right: -1500px;
         text-align: left;
         z-index: 2;
-        transition: 2s;
+        transition: 0.8s;
     }
     nav .nav-bar{
         display: block;
@@ -116,8 +119,15 @@ nav .nav-bar{
         font-size: 22px;
         cursor: pointer;
     }
+    nav .navbar{
+        display: block;
+        margin: 40px;
+        color: white;
+        font-size: 22px;
+        cursor: pointer;
+    }
     .nav-links ul{
-        padding: 30px;
+        padding: 40px;
     }
     .nav-links ul li::after{
         content: '';
@@ -347,7 +357,7 @@ h3{
     padding: 12px 0;
 }
 .icons{
-    padding: 0 23px 0 0;
+    text-align: center;
 }
 /* ---------------------------About Us Page-------------------------- */
 .sub-header{
