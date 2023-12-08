@@ -108,9 +108,9 @@ nav .navbar{
         position: absolute;
         background: #00272e;
         height: 100vh;
-        width: 100%;
+        width: 320px;
         top: 0;
-        right: -100%;
+        right: -320px;
         text-align: left;
         z-index: 2;
         transition: 0.8s;
