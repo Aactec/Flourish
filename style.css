@@ -103,16 +103,18 @@ nav .navbar{
     }
     .nav-links ul li{
         display: block;
+        width: 0px;
     }
     .nav-links{
         position: absolute;
         background: #00272e;
         height: 100vh;
         width: 320px;
-        top: 0;
-        right: -320px;
+        top: 0%;
+        right: 0%;
         text-align: left;
         z-index: 2;
+        display: none;
         transition: 0.8s;
     }
     nav .nav-bar{
